@@ -29,14 +29,14 @@ You can obtain the corpus in one of two ways:
 
 ### (Option 1): Download a pre-packaged version
 
-1. Puncutated English transcripts and titles (17,886 videos)
+#### 1. Puncutated English transcripts and titles (17,886 videos)
 
 This contains 17,886 videos with punctuated English transcripts and titles. This is the dataset originally used in [paper title + link].
 
 It can be downloaded [here](https://drive.google.com/uc?export=download&id=1iIdTK7mkzDmz7lYcZrcoEPpTIYYLTqoh).
 
 
-2. All videos transcripts and titles
+#### 2. All videos transcripts and titles
 
 This contains the full corpus of all 1.2 million YouTube videos with transcripts nad titles. 
 
