@@ -19,7 +19,7 @@ We also acknolwedge earlier work (including first-time data collection) on the s
 
 ## Titles and Transcripts Download
 
-The corpus consists of around 17,500 videos with full English transcripts and video titles.
+The corpus consists of around 17,886 videos with full English transcripts and video titles.
 
 You can obtain the corpus in one of two ways:
 
