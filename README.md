@@ -44,7 +44,7 @@ It can be downloaded [here](https://drive.google.com/uc?export=download&id=1K2fu
 
 
 
-### (Option 2): Use this reproducible pipeline
+### (Option 2): Use [this](https://github.com/chris-lovejoy/youtube-titles-and-transcripts#youtube-titles-and-transcripts-dataset) reproducible pipeline
 
 <!-- TO DO: add link to subfolder README.md which walks through this -->
 
