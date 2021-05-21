@@ -4,7 +4,7 @@ To create the full (1.2M) dataset, follow the instructions in the creating_datas
 
 To then also create two 'cleaner' subsets of this data, follow the instructions in the creating_clean_datasets ipynb file after having run the creating_dataset ipynb. The criteria used to create these subsets are:
 
-#### 1. Titles only contain ASCII characters, defaultLanguage is English and defaultAudioLanguage is English (on YouTube). Dataset size is 74,000. (Not provided as a direct download)
+#### 1. Titles only contain ASCII characters, defaultLanguage is English and defaultAudioLanguage is English (on YouTube). Dataset size is 74k. (Not provided as a direct download)
 
 #### 2. Of these, only include videos with fully punctuated transcripts. Dataset size is 17,886.
 
@@ -22,6 +22,7 @@ The procedure for reproducing these datasets is as follows:
 * Create new csv containing columns for YouTube video ID, video title, video transcript, video categories and task ID (from HowTo100M dataset)
 * Add punctuated flag
 * Add additional columns for transcript length, defaultLanguage and defaultAudioLanguage (from YouTube)
+* Remove transcripts over 42,500 characters long as these are junk transcripts
 
 ### Clean Datasets
 
