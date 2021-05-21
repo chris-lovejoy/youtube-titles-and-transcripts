@@ -29,4 +29,4 @@ The procedure for reproducing these datasets is as follows:
 * Download 'hlen_defaultLanguageEnglish_defaultAudioLanguageEnglish_ascii.csv' from [here](https://drive.google.com/uc?export=download&id=1tfaVHuYCxfgaeh2pWs4pKFUT_SRaS7Ob)
 * Load full dataset
 * Extract only videos from full dataset with video IDs in the above csv to create 74k dataset
-* Extract only videos from these with punctuated = 1 to create 18k dataset
+* Extract only videos from these with punctuated == 1 to create 18k dataset
