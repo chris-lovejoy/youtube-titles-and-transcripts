@@ -38,7 +38,7 @@ It can be downloaded [here](https://drive.google.com/uc?export=download&id=1iIdT
 
 #### 2. All videos transcripts and titles
 
-This contains the full corpus of all 1.2 million YouTube videos with transcripts nad titles. 
+This contains the full corpus of all 1.2 million YouTube videos with transcripts and titles. 
 
 It can be downloaded [here](https://drive.google.com/uc?export=download&id=1K2fuVNHTK3IKQr3_I3Z0khQ-ss09WBYA).
 
