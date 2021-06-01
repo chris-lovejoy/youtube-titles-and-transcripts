@@ -10,16 +10,14 @@ Please cite the following paper in all academic work that uses this dataset:
 ```
 @inproceedings{lovejoy2021videotitle,
   title = {The Truth Is In The Title? Video Title Generation as a novel trainingobjective for video summarisation},
-  author = {Lovejoy, Davies Till and Prosser},
+  author = {Lovejoy, Davies, Till and Prosser},
   year = {2021},
 }
 ```
 
-
 We also acknolwedge earlier work (including first-time data collection) on the same data (and encourage you to do the same):
 
-<!-- [link to original YouTube100M dataset paper] -->
-
+* Shawn Hershey, Sourish Chaudhuri, Daniel P. W. Ellis, Jort F. Gemmeke, Aren Jansen, R. Channing Moore, Manoj Plakal, Devin Platt, Rif A. Saurous, Bryan Seybold, Malcolm Slaney, Ron J. Weiss, Kevin Wilson. CNN Architectures for Large-Scale Audio Classification. September 2016. [https://arxiv.org/abs/1609.09430v2](https://arxiv.org/abs/1609.09430v2)
 
 
 ## Download the Dataset
