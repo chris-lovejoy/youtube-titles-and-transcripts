@@ -2,12 +2,18 @@
 
 This repository contains code and meta-data to (re-)create the *YouTube Titles and Transcripts Dataset* as described in the following paper:
 
-<!-- [paper title - to add] -->
+Christopher Lovejoy, William Davies , Demian Till and Louis Prosser. The Truth Is In The Title? Video Title Generation as a novel trainingobjective for video summarisation. May 2021.
 
 
 Please cite the following paper in all academic work that uses this dataset:
 
-<!-- [embed block of citation] -->
+```
+@inproceedings{lovejoy2021videotitle,
+  title = {The Truth Is In The Title? Video Title Generation as a novel trainingobjective for video summarisation},
+  author = {Lovejoy, Davies Till and Prosser},
+  year = {2021},
+}
+```
 
 
 We also acknolwedge earlier work (including first-time data collection) on the same data (and encourage you to do the same):
