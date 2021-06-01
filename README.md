@@ -9,7 +9,7 @@ Please cite the following paper in all academic work that uses this dataset:
 
 ```
 @inproceedings{lovejoy2021videotitle,
-  title = {The Truth Is In The Title? Video Title Generation as a novel trainingobjective for video summarisation},
+  title = {The Truth Is In The Title? Video Title Generation as a novel training objective for video summarisation},
   author = {Lovejoy, Davies, Till and Prosser},
   year = {2021},
 }
