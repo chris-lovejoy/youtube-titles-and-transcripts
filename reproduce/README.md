@@ -1,4 +1,4 @@
-# Reproducible pipeline for YouTube-Titles-and-Transcripts
+# Reproducible pipeline for YouTube Titles and Transcripts
 
 To create the full (1.2M) dataset, follow the instructions in the creating_dataset ipynb file.
 
