@@ -22,7 +22,7 @@ We also acknolwedge earlier work (including first-time data collection) on the s
 
 ## Download the Dataset
 
-The full corpus consists of 1.2 million YouTube videos with transcripts and titles. Within this, there is a subset of 17,886 videos which meet the following criteria (i) English language, (ii) human-generated summaries, with punctuation and (iii) only includes ASCII characters.
+The full corpus consists of 1.2 million YouTube videos with transcripts and titles. Within this, there is a subset of 17,886 videos which meet the following criteria (i) YouTube metadata set to English language, (ii) human-generated summaries, with punctuation and (iii) titles only includes ASCII characters.
 
 Both are available for download below.
 
