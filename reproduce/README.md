@@ -15,7 +15,11 @@ The procedure for reproducing these datasets is as follows:
 ### Full Dataset
 
 * Download required files from https://www.di.ens.fr/willow/research/howto100m/. These are 'raw_caption.json', 'HowTo100M_v1.csv' and 'task_ids.csv'
-* Download 'video_titles-en.csv' from [here](https://drive.google.com/uc?export=download&id=1LF7V0XmsM5A-f_CVkiwTUn78fAiB5LRd)
+* Download 'video_titles-en.csv' from [here](https://drive.google.com/uc?export=download&id=1LF7V0XmsM5A-f_CVkiwTUn78fAiB5LRd).   
+  Alternatively, run `getting_video_titles.py` to pull video titles from the YouTube API. `getting_video_titles.py` is 
+  currently set up to look for HowTo100M files in `youtube-titles-and-transcripts/data/HowTo100M`. Either put the 
+  downloaded HowTo100M files at this location, or change the filepaths in `getting_video_titles.py`. Put your API key in 
+  `reproduce/key.txt`.
 * Remove NaNs from HowTo100M dataset
 * Map titles, categories, task_ids to YouTube video ID
 * Concatenate captions from HowTo100M dataset into complete transcripts, handling newline characters and overlapping captions appropriately
