@@ -16,7 +16,7 @@ The procedure for reproducing these datasets is as follows:
 
 * Download required files from https://www.di.ens.fr/willow/research/howto100m/. These are 'raw_caption.json', 'HowTo100M_v1.csv' and 'task_ids.csv'
 * Download 'video_titles-en.csv' from [here](https://drive.google.com/uc?export=download&id=1LF7V0XmsM5A-f_CVkiwTUn78fAiB5LRd).   
-  Alternatively, run `getting_video_titles.py` to pull video titles from the YouTube API. `getting_video_titles.py` is 
+  Alternatively, run `reproduce/getting_video_titles.py` to pull video titles from the YouTube API. `getting_video_titles.py` is 
   currently set up to look for HowTo100M files in `youtube-titles-and-transcripts/data/HowTo100M`. Either put the 
   downloaded HowTo100M files at this location, or change the filepaths in `getting_video_titles.py`. Put your API key in 
   `reproduce/key.txt`.
@@ -30,7 +30,8 @@ The procedure for reproducing these datasets is as follows:
 
 ### Clean Datasets
 
-* Download 'hlen_defaultLanguageEnglish_defaultAudioLanguageEnglish_ascii.csv' from [here](https://drive.google.com/uc?export=download&id=1tfaVHuYCxfgaeh2pWs4pKFUT_SRaS7Ob)
 * Load full dataset
+* Download 'hlen_defaultLanguageEnglish_defaultAudioLanguageEnglish_ascii.csv' from [here](https://drive.google.com/uc?export=download&id=1tfaVHuYCxfgaeh2pWs4pKFUT_SRaS7Ob)  
+  Alternatively, run `reproduce/get_clean_dataset.py` to build and save 'hlen_defaultLanguageEnglish_defaultAudioLanguageEnglish_ascii.csv'. 
 * Extract only videos from full dataset with video IDs in the above csv to create 74k dataset
 * Extract only videos from these with punctuated == 1 to create 18k dataset

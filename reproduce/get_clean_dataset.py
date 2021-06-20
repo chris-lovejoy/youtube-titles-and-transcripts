@@ -20,8 +20,11 @@ ENGLISH_LANGUAGES = {'en', 'en-GB', 'en-US', 'en-CA', 'en-IN', 'en-IE'}
 # filter by YouTube metadata and all ASCII title
 both_english = all_video_titles[(all_video_titles['defaultLanguage'].isin(ENGLISH_LANGUAGES)) & (all_video_titles['defaultAudioLanguage'].isin(ENGLISH_LANGUAGES))]
 
+
 def isascii(row):
     return row['title'].isascii()
 
+
 clean_titles = both_english[both_english.apply(isascii, axis=1)]
-clean_titles.to_csv(os.path.join(HowTo100M_dir, f'clean_video_titles-{hl}.csv'), index=False)
+clean_titles.to_csv(os.path.join(HowTo100M_dir, f'hl{hl}_defaultLanguageEnglish_defaultAudioLanguageEnglish_ascii.csv'),
+                    index=False)
