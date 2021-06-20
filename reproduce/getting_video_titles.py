@@ -151,7 +151,7 @@ HowTo100M_dir = os.path.join(base_directory, 'data', 'HowTo100M')
 csv_fp = os.path.join(HowTo100M_dir, 'HowTo100M_v1.csv')
 HowTo_df = pd.read_csv(csv_fp)
 video_ids = HowTo_df['video_id'].values
-stop = 400
+stop = len(video_ids)
 
 
 # %%
