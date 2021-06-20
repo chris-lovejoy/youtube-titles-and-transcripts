@@ -32,7 +32,8 @@ def get_response(youtube, video_ids, hl):
 # %%
 api_service_name = "youtube"
 api_version = "v3"
-key = ""
+with open('key.txt', 'r') as f:
+    key = f.read()
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=key)
 
