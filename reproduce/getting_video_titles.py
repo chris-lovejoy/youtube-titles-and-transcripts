@@ -12,7 +12,7 @@ try:
     drive.mount('/content/drive')
     base_directory = '/content/drive/My Drive/'
 except ModuleNotFoundError:
-    base_directory = os.path.join('..', '..')
+    base_directory = '..'
 
 # %%
 def get_response(youtube, video_ids, hl):
