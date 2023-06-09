@@ -2,7 +2,7 @@
 
 This repository contains code and meta-data to (re-)create the *YouTube Titles and Transcripts Dataset* as described in the following paper:
 
-Christopher Lovejoy, William Davies , Demian Till and Louis Prosser. **The Truth Is In The Title? Video Title Generation as a novel training objective for video summarisation**. May 2021.
+Christopher Lovejoy, William Davies, Demian Till and Louis Prosser. **The Truth Is In The Title? Video Title Generation as a novel training objective for video summarisation**. May 2021.
 
 
 Please cite the following paper in all academic work that uses this dataset:
@@ -15,7 +15,7 @@ Please cite the following paper in all academic work that uses this dataset:
 }
 ```
 
-We also acknolwedge earlier work (including first-time data collection) on the same data (and encourage you to do the same):
+We also acknowledge earlier work (including first-time data collection) on the same data (and encourage you to do the same):
 
 * Shawn Hershey, Sourish Chaudhuri, Daniel P. W. Ellis, Jort F. Gemmeke, Aren Jansen, R. Channing Moore, Manoj Plakal, Devin Platt, Rif A. Saurous, Bryan Seybold, Malcolm Slaney, Ron J. Weiss, Kevin Wilson. CNN Architectures for Large-Scale Audio Classification. September 2016. [https://arxiv.org/abs/1609.09430v2](https://arxiv.org/abs/1609.09430v2)
 
